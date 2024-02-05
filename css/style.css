@@ -398,6 +398,7 @@ body._lock {
 /*--------------featured-------------------*/
 .featured {
   margin-top: clamp(1.25rem, -0.23rem + 15vw, 5.625rem);
+  padding-bottom: clamp(1.875rem, -0.852rem + 13.64vw, 11.25rem);
 }
 
 .feautered__box {
@@ -410,4 +411,9 @@ body._lock {
 }
 .feautered__item {
   flex: 0 0 auto;
+}
+/*--------------popular-------------------*/
+.popular {
+  background: #1A242F url("../img/slider-bg.png") center center/cover no-repeat;
+  padding: clamp(1.875rem, -0.489rem + 11.82vw, 10rem) 0;
 }/*# sourceMappingURL=style.css.map */
